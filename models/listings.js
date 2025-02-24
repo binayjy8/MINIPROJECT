@@ -12,6 +12,7 @@ const listingSchema = new Schema ({
     },
     image: {
         type: String,
+        default: "https://www.pexels.com/photo/flock-of-birds-in-flight-against-clear-sky-30810205/",
         set: (v) => v === "" ? "https://www.pexels.com/photo/flock-of-birds-in-flight-against-clear-sky-30810205/"
            : v,
     },

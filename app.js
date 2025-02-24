@@ -1,12 +1,12 @@
 const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
-const Listing = require("..models/listings.js");
+const Listing = require("./models/listings.js");
 
 const MONGO_URL = "mongodb://127.0.0.1:27017/bnb";
 
-main.
-    then(() => {
+main()
+    .then(() => {
         console.log("connected to DB");
     })
     .catch((err) => {
@@ -24,7 +24,7 @@ app.get("/", (req, res) => {
 app.get("/test", async(req, res) => {
     let sampleListing = new Listing({
         title: "New Home",
-        Description: "Reh Kar toh dekho",
+        description: "Reh Kar toh dekho",
         price: 2999,
         location: "Ghara Ade",
         country: "India",
