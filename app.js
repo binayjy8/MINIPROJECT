@@ -21,19 +21,11 @@ app.get("/", (req, res) => {
     res.send("hi this is root");
 });
 
-app.get("/test", async(req, res) => {
-    let sampleListing = new Listing({
-        title: "New Home",
-        description: "Reh Kar toh dekho",
-        price: 2999,
-        location: "Ghara Ade",
-        country: "India",
-    });
-
-    await sampleListing.save();
-    console.log("Sample was saved");
-    res.send("testing succefull");
-});
+app.get("/listings",  (req, res) => {
+    Listing.find({}).then((res) => {
+        console.log(res);
+    })
+})
 
 app.listen(8080, () => {
     console.log("Listening to the port : 8080");
