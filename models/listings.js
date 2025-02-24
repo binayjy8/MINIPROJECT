@@ -3,4 +3,5 @@ const Schema = mongoose.Schema;
 
 const listingSchema = new Schema ({
     title: String,
+    description: Strring
 });
