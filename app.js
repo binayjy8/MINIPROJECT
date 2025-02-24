@@ -16,6 +16,10 @@ async function main() {
     await mongoose.connect(MONGO_URL);
 };
 
+app.get("/", (req, res) => {
+    res.send("hi this is root");
+});
+
 app.listen(8080, () => {
     console.log("Listening to the port : 8080");
 });
