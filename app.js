@@ -21,15 +21,18 @@ app.get("/", (req, res) => {
     res.send("hi this is root");
 });
 
-app.get("/test", (req, res) => {
+app.get("/test", async(req, res) => {
     let sampleListing = new Listing({
         title: "New Home",
         Description: "Reh Kar toh dekho",
-        image: "",
         price: 2999,
         location: "Ghara Ade",
         country: "India",
     });
+
+    await sampleListing.save();
+    console.log("Sample was saved");
+    res.send("testing succefull");
 });
 
 app.listen(8080, () => {
