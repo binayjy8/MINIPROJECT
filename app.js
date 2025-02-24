@@ -18,6 +18,8 @@ async function main() {
     await mongoose.connect(MONGO_URL);
 };
 
+app.set("view engine", "ejs");
+
 app.get("/", (req, res) => {
     res.send("hi this is root");
 });
