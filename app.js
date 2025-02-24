@@ -22,7 +22,14 @@ app.get("/", (req, res) => {
 });
 
 app.get("/test", (req, res) => {
-    res.send("Data is working");
+    let sampleListing = new Listing({
+        title: "New Home",
+        Description: "Reh Kar toh dekho",
+        image: "",
+        price: 2999,
+        location: "Ghara Ade",
+        country: "India",
+    });
 });
 
 app.listen(8080, () => {
