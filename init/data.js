@@ -60,3 +60,5 @@ const sampleListings = [
       country: "United States",
     },
 ];
+
+module.exports = {data: sampleListings};
