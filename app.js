@@ -20,6 +20,10 @@ app.get("/", (req, res) => {
     res.send("hi this is root");
 });
 
+app.get("/test", (req, res) => {
+    res.send("Data is working");
+});
+
 app.listen(8080, () => {
     console.log("Listening to the port : 8080");
 });
