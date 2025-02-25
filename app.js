@@ -71,6 +71,7 @@ app.put("/listings/:id", async (req, res) => {
 app.delete("/listings/:id", async (req, res) => {
     let {id} = req.params;
     let deleteListing = await Listing.findByIdAndDelete(id);
+    res.redirect("/listings");
 });
 
 app.listen(8080, () => {
