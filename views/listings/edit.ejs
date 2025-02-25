@@ -8,11 +8,11 @@
 <body>
     <h3>Create a new listing</h3>
     <form method="POST" action="/listings">
-        <input name="listing[title]" placeholder="Enter Title" type="text">
+        <input name="listing[title]" value="<%= listing.title %>" type="text">
         <br><br>
         <textarea 
             name="listing[description]" 
-            placeholder="Enter description"
+            value="<%= listing.description %>"
         ></textarea>
         <br><br>
         <input 
