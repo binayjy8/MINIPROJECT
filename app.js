@@ -55,6 +55,7 @@ app.post("/listings", async (req, res) => {
 app.get("/listings/:id/edit", async (req, res) => {
     let {id} = req.params;
     const listing = await Listing.findById(id);
+    res.redirect("./listings/edit.ejs", {listing});
 });
 
 app.listen(8080, () => {
