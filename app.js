@@ -48,7 +48,7 @@ app.get("/listings/:id", async (req, res) => {
 app.post("/listings", async (req, res) => {
     const newListing = new Listing(req.body.listing);
     newListing.save();
-})
+});
 
 app.listen(8080, () => {
     console.log("Listening to the port : 8080");
