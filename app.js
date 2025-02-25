@@ -46,7 +46,7 @@ app.get("/listings/:id", async (req, res) => {
 
 //Create Route
 app.post("/listings", async (req, res) => {
-
+    const newListing = Listing(req.body.listing);
 })
 
 app.listen(8080, () => {
