@@ -51,6 +51,11 @@ app.post("/listings", async (req, res) => {
     res.redirect("/listings");
 });
 
+//Edit Route
+app.get("/listings/:id/edit", (req, res) => {
+    
+})
+
 app.listen(8080, () => {
     console.log("Listening to the port : 8080");
 });
