@@ -54,3 +54,7 @@ body {
 .cad-body {
     padding: 0 !important;
 }
+
+.listing-link {
+    text-decoration: none;
+}
