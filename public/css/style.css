@@ -1,5 +1,6 @@
 body {
     font-family: "Plus Jakarta Sans", serif !important;
+    display: flex;
   }
 
 .navbar {
