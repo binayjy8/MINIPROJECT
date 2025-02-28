@@ -9,6 +9,7 @@
     <h3>Edit your listing</h3>
     <form method="POST" action="/listings/<%= listing._id %>?_method=PUT">
         <div class="mb-3">
+            <label></label>
             <input name="listing[title]" value="<%= listing.title %>" type="text">
         </div>
         
