@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mini BNB</title>
-</head>
-<body>
+<% layout ("./layouts/boilerplate.ejs") %>
+
     <h3>Edit your listing</h3>
     <form method="POST" action="/listings/<%= listing._id %>?_method=PUT">
         <div class="mb-3">
@@ -17,7 +11,7 @@
             >
         </div>
         
-        <div>
+        <div class="mb-3">
             <label for="description" class="form-label">Description</label>
             <textarea
             name="listing[description]" 
@@ -25,7 +19,7 @@
             ><%= listing.description %></textarea>
         </div>
          
-        <div>
+        <div class="mb-3">
             <label for="image" class="form-label">Image Link</label>
             <input 
             name="listing[image]" 
@@ -35,7 +29,7 @@
         >
          </div>
         
-        <div>
+        <div class="mb-3">
             <label for="price" class="form-label">Price</label>
             <input 
             name="listing[price]" 
@@ -45,7 +39,7 @@
         >
         </div>
        
-        <div>
+        <div class="mb-3">
             <label for="location" class="form-label">Location</label>
             <input 
             name="listing[location]" 
@@ -55,7 +49,7 @@
         >
         </div>
         
-        <div>
+        <div class="mb-3">
             <label for="country" class="form-label">Country</label>
             <input 
             name="listing[country]" 
@@ -66,7 +60,5 @@
         </div>
        
         <br><br>
-        <button class="btn btn-dark add-btn">Add</button>
+        <button class="btn btn-dark add-btn">Edit</button>
     </form>
-</body>
-</html>
