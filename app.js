@@ -6,6 +6,7 @@ const path = require("path");
 const methodOverride = require("method-override");
 const ejsMate = require("ejs-mate");
 const wrapAsync = require("./utils/wrapAsync.js");
+const ExpressError = require("./utils/expressError.js");
 
 const MONGO_URL = "mongodb://127.0.0.1:27017/bnb";
 
@@ -82,7 +83,8 @@ app.delete("/listings/:id", async (req, res) => {
 });
 
 app.use((err, req, res, next) => {
-    res.send("Something went wrong!");
+    let { statusCode, message } = err;
+    res.status(statusCode).send(message);
 });
 
 app.listen(8080, () => {
