@@ -82,6 +82,10 @@ app.delete("/listings/:id", async (req, res) => {
     res.redirect("/listings");
 });
 
+app.use("*", (req, res, next) => {
+    next(new ExpressError(404, "This page is not found!"));
+});
+
 app.use((err, req, res, next) => {
     let { statusCode, message } = err;
     res.status(statusCode).send(message);
