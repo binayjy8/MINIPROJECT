@@ -34,10 +34,10 @@ app.get("/", (req, res) => {
 });
 
 //Index Route
-app.get("/listings",  async (req, res) => {
+app.get("/listings",  wrapAsync(async (req, res) => {
     const allListings = await Listing.find({});
     res.render("./listings/index.ejs", {allListings});
-});
+}));
 
 //New Route
 app.get("/listings/new", (req, res) => {
