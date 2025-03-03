@@ -60,9 +60,7 @@ app.get(
 app.post(
   "/listings", 
   wrapAsync(async (req, res) => {
-    if(!req.body.listing) {
-        throw new ExpressError(400, "send valid data for listing");
-    }
+    listingSchema.validate(req.body);
     const newListing = new Listing(req.body.listing);
     await newListing.save();
     res.redirect("/listings");
