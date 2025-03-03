@@ -81,12 +81,12 @@ app.put(
 }));
 
 //Delete Route
-app.delete("/listings/:id", async (req, res) => {
+app.delete("/listings/:id", wrapAsync(async (req, res) => {
     let {id} = req.params;
     let deleteListing = await Listing.findByIdAndDelete(id);
     console.log(deleteListing);
     res.redirect("/listings");
-});
+}));
 
 app.all("*", (req, res, next) => {
     next(new ExpressError(404, "This page is not found!"));
