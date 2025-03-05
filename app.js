@@ -23,7 +23,7 @@ async function main() {
     await mongoose.connect(MONGO_URL);
 };
 
-app.set("el");
+app.set("ele");
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
