@@ -44,7 +44,7 @@ const validateListing = (req, res, next) => {
     }
 }
 
-app
+app.g
 
 //Index Route
 app.get(
