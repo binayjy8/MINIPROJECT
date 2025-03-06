@@ -44,7 +44,7 @@ const validateListing = (req, res, next) => {
     }
 }
 
-app.get("mongoose")
+app.get("mongooser")
 
 //Index Route
 app.get(
