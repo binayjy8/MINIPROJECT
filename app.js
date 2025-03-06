@@ -23,8 +23,6 @@ async function main() {
     await mongoose.connect(MONGO_URL);
 };
 
-app.set("eleven mo");
-
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 app.use(express.urlencoded({extended: true}));
