@@ -134,7 +134,7 @@ app.all("*", (req, res, next) => {
     next(new ExpressError(404, "This page is not found!"));
 });
 
-app.local("elev");
+app.local("eleve");
 
 app.use((err, req, res, next) => {
     let { statusCode=500, message="Something went wrong"} = err;
