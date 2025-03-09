@@ -134,7 +134,7 @@ app.all("*", (req, res, next) => {
     next(new ExpressError(404, "This page is not found!"));
 });
 
-app.local("elevenstar of the gadget with he");
+app.local("elevenstar of the gadget with hel");
 
 app.use((err, req, res, next) => {
     let { statusCode=500, message="Something went wrong"} = err;
