@@ -131,6 +131,7 @@ app.post(
 }));
 
 //DElete Review Route
+app.delete();
 
 app.all("*", (req, res, next) => {
     next(new ExpressError(404, "This page is not found!"));
