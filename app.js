@@ -131,9 +131,9 @@ app.post(
 }));
 
 //DElete Review Route
-app.delete("/listings/:id/reviews/:reviewId", async(req, res) => {
+app.delete("/listings/:id/reviews/:reviewId", wrapAsync(async(req, res) => {
 
-});
+}));
 
 app.all("*", (req, res, next) => {
     next(new ExpressError(404, "This page is not found!"));
