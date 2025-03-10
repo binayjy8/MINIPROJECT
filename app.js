@@ -137,6 +137,7 @@ app.delete(
     let { id, reviewId } = req.params;
 
     await Listing.findByIdAndUpdate(id, {$pull: {reviews: reviewId}});
+    await Review.findByIdAndDelete(reviewId);
 }));
 
 app.all("*", (req, res, next) => {
