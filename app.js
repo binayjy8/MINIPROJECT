@@ -32,7 +32,7 @@ app.engine("ejs", ejsMate);
 app.use(express.static(path.join(__dirname, "/public")));
 
 app.get("/", (req, res) => {
-    res.send("hi this is root bit root of the any skull prefor");
+    res.send("hi this is root bit root of the any skull prefore");
 });
 
 const validateListing = (req, res, next) => {
