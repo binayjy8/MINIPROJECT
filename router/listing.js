@@ -23,3 +23,5 @@ router.get(
      const listing = await Listing.findById(id).populate("reviews");
      res.render("./listings/show.ejs", { listing });
 }));
+
+module.exports = router;
