@@ -25,7 +25,7 @@ router.get(
 }));
 
 //Create Route
-app.post(
+router.post(
     "/listings", 
     validateListing,
     wrapAsync(async (req, res) => {
