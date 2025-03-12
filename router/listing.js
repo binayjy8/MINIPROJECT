@@ -3,7 +3,7 @@ const router = express.Router();
 
 
 //Index Route
-app.get(
+router.get(
     "/listings",  
     wrapAsync(async (req, res) => {
      const allListings = await Listing.find({});
