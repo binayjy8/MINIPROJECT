@@ -16,7 +16,7 @@ router.get("/listings/new", (req, res) => {
 });
 
 //Show Route
-app.get(
+router.get(
     "/listings/:id", 
     wrapAsync(async (req, res) => {
      let {id} = req.params;
