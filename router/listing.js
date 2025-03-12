@@ -34,7 +34,7 @@ router.post(
       res.redirect("/listings");
   }));
 
-  //Edit Route
+//Edit Route
 router.get(
     "/listings/:id/edit", 
      wrapAsync(async (req, res) => {
