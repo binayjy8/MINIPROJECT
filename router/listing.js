@@ -34,4 +34,23 @@ app.post(
       res.redirect("/listings");
   }));
 
+  //Edit Route
+app.get(
+    "/listings/:id/edit", 
+     wrapAsync(async (req, res) => {
+     let {id} = req.params;
+     const listing = await Listing.findById(id);
+     res.render("./listings/edit.ejs", {listing});
+}));
+
+//Update Route
+app.put(
+    "/listings/:id", 
+     validateListing,
+     wrapAsync(async (req, res) => {
+     let {id} = req.params;
+     await Listing.findByIdAndUpdate(id, {...req.body.listing});
+     res.redirect(`/listings/${id}`);
+}));
+
 module.exports = router;
