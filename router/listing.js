@@ -54,7 +54,7 @@ router.put(
 }));
 
 //Delete Route
-app.delete(
+router.delete(
     "/listings/:id", 
     wrapAsync(async (req, res) => {
       let {id} = req.params;
