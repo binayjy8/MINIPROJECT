@@ -35,7 +35,7 @@ router.post(
   }));
 
   //Edit Route
-app.get(
+router.get(
     "/listings/:id/edit", 
      wrapAsync(async (req, res) => {
      let {id} = req.params;
