@@ -44,7 +44,7 @@ router.get(
 }));
 
 //Update Route
-app.put(
+router.put(
     "/listings/:id", 
      validateListing,
      wrapAsync(async (req, res) => {
