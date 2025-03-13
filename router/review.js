@@ -13,6 +13,8 @@ app.post(
 
         await listing.save();
         await newReview.save();
+
+        res.redirect();
 }));
 
 //DElete Review Route
