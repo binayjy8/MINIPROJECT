@@ -36,7 +36,7 @@ router.post(
 
 //Edit Route
 router.get(
-    "/listings/:id/edit", 
+    "/:id/edit", 
      wrapAsync(async (req, res) => {
      let {id} = req.params;
      const listing = await Listing.findById(id);
