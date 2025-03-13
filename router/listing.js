@@ -54,7 +54,7 @@ router.get(
      wrapAsync(async (req, res) => {
      let {id} = req.params;
      const listing = await Listing.findById(id);
-     res.render("./listings/edit.ejs", {listing});
+     res.render("./listings/edit.ejs", { listing });
 }));
 
 //Update Route
