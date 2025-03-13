@@ -45,7 +45,7 @@ router.get(
 
 //Update Route
 router.put(
-    "/listings/:id", 
+    "/:id", 
      validateListing,
      wrapAsync(async (req, res) => {
      let {id} = req.params;
