@@ -14,7 +14,7 @@ app.post(
         await listing.save();
         await newReview.save();
 
-        res.redirect(`/listings`);
+        res.redirect(`/listings/${listing._id}`);
 }));
 
 //DElete Review Route
