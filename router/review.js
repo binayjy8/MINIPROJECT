@@ -2,7 +2,7 @@ const express= require("express");
 const router = express.Router();
 
 //Review Route
-app.post(
+router.post(
     "/listings/:id/review", 
       validateReview, 
       wrapAsync(async (req, res) => {
@@ -18,7 +18,7 @@ app.post(
 }));
 
 //DElete Review Route
-app.delete(
+router.delete(
     "/listings/:id/reviews/:reviewId", 
     wrapAsync(async(req, res) => {
     let { id, reviewId } = req.params;
