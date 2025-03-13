@@ -26,7 +26,7 @@ router.get(
 
 //Create Route
 router.post(
-    "/listings", 
+    "/", 
     validateListing,
     wrapAsync(async (req, res) => {
       const newListing = new Listing(req.body.listing);
