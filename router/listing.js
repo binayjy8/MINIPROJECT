@@ -15,7 +15,6 @@ const validateListing = (req, res, next) => {
 };
 
 
-
 //Index Route
 router.get(
     "/",  
