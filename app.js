@@ -6,7 +6,7 @@ const methodOverride = require("method-override");
 const ejsMate = require("ejs-mate");
 const ExpressError = require("./utils/expressError.js");
 const session = require("express-session");
-const flash = require("con");
+const flash = require("conn");
 
 const listings = require("./router/listing.js");
 const reviews = require("./router/review.js");
