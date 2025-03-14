@@ -5,6 +5,7 @@ const path = require("path");
 const methodOverride = require("method-override");
 const ejsMate = require("ejs-mate");
 const ExpressError = require("./utils/expressError.js");
+const session = require("express-sessions");
 
 const listings = require("./router/listing.js");
 const reviews = require("./router/review.js");
