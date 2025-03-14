@@ -43,11 +43,15 @@ const sessionOptions = {
     },
 };
 
+app.get("/", (req, res) => {
+    res.send("hi this is root.");
+});
+
 app.use(session(sessionOptions));
 app.use(flash());
 
-app.get("/", (req, res) => {
-    res.send("hi this is root.");
+app.use((req, res, next) => {
+    res.locals.success = req.flash("success");
 });
 
 app.use("/listings", listings);
