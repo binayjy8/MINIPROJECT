@@ -34,6 +34,7 @@ app.use(express.static(path.join(__dirname, "/public")));
 const sessionOptions = {
     secret: "secretcode",
     resave: false,
+    saveUninitialized: true,
 }
 
 app.get("/", (req, res) => {
