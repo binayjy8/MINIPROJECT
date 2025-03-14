@@ -32,7 +32,7 @@ app.engine("ejs", ejsMate);
 app.use(express.static(path.join(__dirname, "/public")));
 
 const sessionOptions = {
-    secret: "secretc"
+    secret: "secretco"
 }
 
 app.get("/", (req, res) => {
