@@ -35,6 +35,9 @@ const sessionOptions = {
     secret: "secretcode",
     resave: false,
     saveUninitialized: true,
+    cookie: {
+        
+    }
 }
 
 app.use(session(sessionOptions));
