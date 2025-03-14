@@ -36,7 +36,7 @@ const sessionOptions = {
     resave: false,
     saveUninitialized: true,
     cookie: {
-        expires: Date.now() + 
+        expires: Date.now() + 7 * 24 * 60 * 60 * 1000,
     }
 }
 
