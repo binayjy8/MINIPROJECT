@@ -37,6 +37,8 @@ const sessionOptions = {
     saveUninitialized: true,
 }
 
+app.use(session(sessionOptions));
+
 app.get("/", (req, res) => {
     res.send("hi this is root.");
 });
