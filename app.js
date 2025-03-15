@@ -8,6 +8,7 @@ const ExpressError = require("./utils/expressError.js");
 const session = require("express-session");
 const flash = require("connect-flash");
 const passport = require("passport");
+const localStrategy = require("passport-local");
 
 const listings = require("./router/listing.js");
 const reviews = require("./router/review.js");
