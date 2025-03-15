@@ -1,1 +1,5 @@
-<h1>Flash message for success</h1>
+<% if(success && success.length) { %>
+<div class="alert alert-success" role="alert">
+    <%= success %>
+</div>
+<% } %>
