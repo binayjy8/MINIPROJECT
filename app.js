@@ -11,8 +11,9 @@ const passport = require("passport");
 const LocalStrategy = require("passport-local");
 const User = require("./models/user.js");
 
-const listings = require("./router/listing.js");
-const reviews = require("./router/review.js");
+const listingRouter = require("./router/listing.js");
+const reviewRouter = require("./router/review.js");
+const userRouter = require("./models/user.js");
 
 const MONGO_URL = "mongodb://127.0.0.1:27017/bnb";
 
@@ -65,8 +66,8 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use("/listings", listingRoute);
-app.use("/listings/:id/review", reviewRoute);
+app.use("/listings", listingRouter);
+app.use("/listings/:id/review", reviewRouter);
 
 
 app.all("*", (req, res, next) => {
