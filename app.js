@@ -53,6 +53,8 @@ app.get("/", (req, res) => {
 app.use(session(sessionOptions));
 app.use(flash());
 
+app.use(passport.initialize());
+
 app.use((req, res, next) => {
     res.locals.success = req.flash("success");
     next();
