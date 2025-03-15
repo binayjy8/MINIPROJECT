@@ -65,8 +65,8 @@ app.use((req, res, next) => {
     next();
 });
 
-app.use("/listings", listings);
-app.use("/listings/:id/review", reviews);
+app.use("/listings", listingRoute);
+app.use("/listings/:id/review", reviewRoute);
 
 
 app.all("*", (req, res, next) => {
