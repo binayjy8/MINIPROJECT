@@ -13,7 +13,7 @@ const User = require("./models/user.js");
 
 const listingRouter = require("./router/listing.js");
 const reviewRouter = require("./router/review.js");
-const userRouter = require("./models/user.js");
+const userRouter = require("./router/user.js");
 
 const MONGO_URL = "mongodb://127.0.0.1:27017/bnb";
 
@@ -69,7 +69,6 @@ app.use((req, res, next) => {
 app.use("/listings", listingRouter);
 app.use("/listings/:id/review", reviewRouter);
 app.use("/", userRouter);
-
 
 app.all("*", (req, res, next) => {
     next(new ExpressError(404, "This page is not found!"));
