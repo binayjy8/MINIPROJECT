@@ -18,6 +18,7 @@ router.post(
     res.redirect("/listings");
         } catch (e) {
             req.flash("error", e.message);
+            res.redirect("/signup");
         }
     
 }));
