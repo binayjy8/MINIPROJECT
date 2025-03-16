@@ -17,7 +17,7 @@ router.post(
     console.log(registerdUser);
     res.redirect("/listings");
         } catch (e) {
-
+            req.flash("error", e.message);
         }
     
 }));
