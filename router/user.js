@@ -20,7 +20,6 @@ router.post(
             req.flash("error", e.message);
             res.redirect("/signup");
         }
-    
 }));
 
 module.exports = router;
