@@ -10,6 +10,7 @@ router.post("/signup", async(req, res) => {
     let { email, username, password } = req.body;
     const newUser = new User(username, password);
     const registerdUser = await User.register(newUser, password);
+    console.log(registerdUser);
 });
 
 module.exports = router;
