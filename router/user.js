@@ -8,6 +8,7 @@ router.get("/signup", (req, res) => {
 
 router.post("/signup", (req, res) => {
     let { email, username, password } = req.body;
+    const newUser = new User(username, password);
 })
 
 module.exports = router;
