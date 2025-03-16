@@ -22,6 +22,6 @@ router.post(
         }
 }));
 
-router.get();
+router.get("/login");
 
 module.exports = router;
