@@ -22,6 +22,8 @@ router.post(
         }
 }));
 
-router.get("/login");
+router.get("/login", (req, res) => {
+    res.render("users")
+});
 
 module.exports = router;
