@@ -11,6 +11,7 @@ router.post("/signup", async(req, res) => {
     const newUser = new User(username, password);
     const registerdUser = await User.register(newUser, password);
     console.log(registerdUser);
+    res.redirect("/listings");
 });
 
 module.exports = router;
