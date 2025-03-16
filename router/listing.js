@@ -26,7 +26,7 @@ router.get(
 }));
 
 //New Route
-router.get("/new", (req, res) => {
+router.get("/new", isloggedIn,(req, res) => {
     res.render("listings/new.ejs");
 });
 
