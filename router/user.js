@@ -37,4 +37,14 @@ router.post(
             res.send("Welcome! You are logged in");
         });
 
+        router.get("/logout", (req, res, next) => {
+            req.logout((err) => {
+                if(err) {
+                    return next(err);
+                }
+                req.flash("success", "ypu are loggedout");
+                res.redirect("/listings");
+            })
+        });
+
 module.exports = router;
