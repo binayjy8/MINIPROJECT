@@ -44,7 +44,7 @@ router.post(
         }),
         async(req, res) => {
             req.flash("success", "Welcome! You are logged in");
-            res.redirect(req.session.redirectUrl)
+            res.redirect(res.locals.redirectUrl);
         });
 
         router.get("/logout", (req, res, next) => {
