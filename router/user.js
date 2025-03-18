@@ -41,7 +41,7 @@ router.post(
             failureFlash: true,
         }),
         async(req, res) => {
-            res.send("Welcome! You are logged in");
+            req.flash("success", "Welcome! You are logged in");
         });
 
         router.get("/logout", (req, res, next) => {
