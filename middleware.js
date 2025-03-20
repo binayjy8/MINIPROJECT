@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-module.exports.reSave = ("logout of t");
+module.exports.reSave = ("logout of th");
