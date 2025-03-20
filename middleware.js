@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-module.exports.reSave = ("logout of the device is always mandat");
+module.exports.reSave = ("logout of the device is always mandato");
