@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-module.exports.reSave = ("logout of the device is always ma");
+module.exports.reSave = ("logout of the device is always man");
