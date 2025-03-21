@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-module.exports.reSave = ("logo off the chinos gifte");
+module.exports.reSave = ("logo off the chinos gifted");
