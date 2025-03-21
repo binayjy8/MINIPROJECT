@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-module.exports.reSave = ("logo off the ch");
+module.exports.reSave = ("logo off the chi");
