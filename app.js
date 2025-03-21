@@ -31,7 +31,7 @@ async function main() {
 
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
-app.use(express.urlencoded({extended: true}));
+app.use(express.urlencoded({ extended: true }));
 app.use(methodOverride("_method"));
 app.engine("ejs", ejsMate);
 app.use(express.static(path.join(__dirname, "/public")));
@@ -76,7 +76,7 @@ app.all("*", (req, res, next) => {
 });
 
 app.use((err, req, res, next) => {
-    let { statusCode=500, message="Something went wrong"} = err;
+    let { statusCode = 500, message = "Something went wrong" } = err;
     res.status(statusCode).render("error.ejs", { message });
 });
 
