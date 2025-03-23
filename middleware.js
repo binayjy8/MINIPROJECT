@@ -13,5 +13,3 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     }
     next();
 };
-
-module.exports.reSave = ("Hello with the global internet");
