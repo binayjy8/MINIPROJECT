@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-console.log("corporate job here because ou");
+console.log("corporate job here because out");
