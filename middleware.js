@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-console.log("Hello with the path belongs to y");
+console.log("Hello with the path belongs to yo");
