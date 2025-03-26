@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-console.log("situation is to be avoided soluti");
+console.log("situation is to be avoided solutio");
