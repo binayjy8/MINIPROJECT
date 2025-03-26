@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-console.log("situation is to be avo");
+console.log("situation is to be avoi");
