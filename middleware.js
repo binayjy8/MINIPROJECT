@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-console.log("Hello world give the quick lession pleadge to take and justify t");
+console.log("Hello world give the quick lession pleadge to take and justify th");
