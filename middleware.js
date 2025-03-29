@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-console.log("Hello brocode will dange");
+console.log("Hello brocode will danger");
