@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-console.log("Count your struggling days and determine your sleeping capacity will b");
+console.log("Count your struggling days and determine your sleeping capacity will be");
