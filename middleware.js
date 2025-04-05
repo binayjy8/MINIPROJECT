@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-console.log("The voldemort is giving a");
+console.log("The voldemort is giving at");
