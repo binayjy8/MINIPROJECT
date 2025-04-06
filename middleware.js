@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-console.log("The voldemort is giving at the end Harry potter rone Harmony are th");
+console.log("The voldemort is giving at the end Harry potter rone Harmony are thr");
