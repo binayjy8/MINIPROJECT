@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-console.log("Regular practice of coding wi");
+console.log("Regular practice of coding wil");
