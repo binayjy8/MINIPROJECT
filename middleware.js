@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-console.log("Readding the talent to the");
+console.log("Readding the talent to the b");
