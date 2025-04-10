@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-console.log("Sleding is the way of");
+console.log("Sleding is the way of g");
