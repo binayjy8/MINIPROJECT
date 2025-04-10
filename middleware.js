@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-console.log("Sleding is the way of git comman");
+console.log("Sleding is the way of git command");
