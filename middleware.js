@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-console.log("All to the amount the of the given all wi");
+console.log("All to the amount the of the given all wit");
