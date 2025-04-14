@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-console.log("today is the IPL match LSG and");
+console.log("today is the IPL match LSG and C");
