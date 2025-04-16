@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-console.log("Randomly urgntly push");
+console.log("Randomly urgntly pushi");
