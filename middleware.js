@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-console.log("Randomly urgntly pushing into githu");
+console.log("Randomly urgntly pushing into github");
