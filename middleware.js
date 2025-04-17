@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-console.log("Thumb is a impression which is the r");
+console.log("Thumb is a impression which is the ri");
