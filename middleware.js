@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-console.log("Thumb is a impress");
+console.log("Thumb is a impressi");
