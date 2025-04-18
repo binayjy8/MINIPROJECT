@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-console.log("Ramesh is a goo");
+console.log("Ramesh is a good");
