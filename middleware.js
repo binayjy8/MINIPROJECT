@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-console.log("The quantitative apptitute");
+console.log("The quantitative apptitute a");
