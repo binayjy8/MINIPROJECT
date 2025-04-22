@@ -13,10 +13,3 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     }
     next();
 };
-
-module.exports.urlSave = (req, res, next) => {
-    if(req.session.redirectUrl) {
-        res.locals
-    }
-    next();
-};
