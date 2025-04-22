@@ -15,6 +15,6 @@ module.exports.saveRedirectUrl = (req, res, next) => {
 };
 
 module.exports.urlSave = (req, res, next) => {
-    if(req.session.redirect) {}
+    if(req.session.redirectU) {}
     next();
 };
