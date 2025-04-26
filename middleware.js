@@ -14,4 +14,4 @@ module.exports.saveRedirectUrl = (req, res, next) => {
     next();
 };
 
-console.log("Some power of the sql and the commitmen");
+console.log("Some power of the sql and the commitment");
