@@ -84,4 +84,4 @@ app.listen(8080, () => {
     console.log("Listening to the port : 8080");
 });
 
-console.log("hello world global warming with the effectl");
+console.log("hello world global warming with the effectly");
