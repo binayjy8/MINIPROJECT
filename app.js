@@ -83,5 +83,3 @@ app.use((err, req, res, next) => {
 app.listen(8080, () => {
     console.log("Listening to the port : 8080");
 });
-
-console.log("So the sports of the compatibility system java and springboot while");
