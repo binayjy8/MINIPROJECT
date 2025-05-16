@@ -83,5 +83,3 @@ app.use((err, req, res, next) => {
 app.listen(8080, () => {
     console.log("Listening to the port : 8080");
 });
-
-console.log("Giving this adding fragmentation wonderala waterpark with other ap");
