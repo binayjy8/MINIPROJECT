@@ -84,4 +84,4 @@ app.listen(8080, () => {
     console.log("Listening to the port : 8080");
 });
 
-console.log("Github pushing co");
+console.log("Github pushing com");
