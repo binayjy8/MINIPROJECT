@@ -84,4 +84,4 @@ app.listen(8080, () => {
     console.log("Listening to the port : 8080");
 });
 
-console.log("Be focus on your goals and give hund");
+console.log("Be focus on your goals and give hundr");
