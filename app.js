@@ -84,4 +84,4 @@ app.listen(8080, () => {
     console.log("Listening to the port : 8080");
 });
 
-console.log("Hello world is a first line of code that all coder write with there lapto");
+console.log("Hello world is a first line of code that all coder write with there laptop");
