@@ -84,4 +84,4 @@ app.listen(8080, () => {
     console.log("Listening to the port : 8080");
 });
 
-console.log("My fullstack journey about to start today and it is a delightfull experi");
+console.log("My fullstack journey about to start today and it is a delightfull experie");
