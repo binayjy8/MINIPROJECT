@@ -84,4 +84,4 @@ app.listen(8080, () => {
     console.log("Listening to the port : 8080");
 });
 
-console.log("Genuine product and part of the cod");
+console.log("Genuine product and part of the co");
