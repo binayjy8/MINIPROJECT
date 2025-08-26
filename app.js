@@ -84,4 +84,4 @@ app.listen(8080, () => {
     console.log("Listening to the port : 8080");
 });
 
-console.log("Glimps of the reason with beautifu");
+console.log("Glimps of the reason with beautif");
