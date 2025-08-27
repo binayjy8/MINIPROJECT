@@ -84,4 +84,4 @@ app.listen(8080, () => {
     console.log("Listening to the port : 8080");
 });
 
-console.log("Glimp the complete and pure e");
+console.log("Glimp the complete and pure el");
