@@ -85,4 +85,4 @@ app.listen(8080, () => {
 });
 
 
-console.log("Hello world for gitting fro")
+console.log("Hello world for gitting from")
