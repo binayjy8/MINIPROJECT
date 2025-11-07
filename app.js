@@ -85,4 +85,4 @@ app.listen(8080, () => {
 });
 
 
-console.log("Hello world given the funct")
+console.log("Hello world given the func")
