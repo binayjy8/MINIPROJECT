@@ -85,4 +85,4 @@ app.listen(8080, () => {
 });
 
 
-console.log("Ter")
+console.log("Te")
