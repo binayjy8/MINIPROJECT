@@ -85,4 +85,4 @@ app.listen(8080, () => {
 });
 
 
-console.log("Terminal and T")
+console.log("Terminal and ")
