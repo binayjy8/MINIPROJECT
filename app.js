@@ -85,4 +85,4 @@ app.listen(8080, () => {
 });
 
 
-console.log("Terminal and Terbul")
+console.log("Terminal and Terbu")
