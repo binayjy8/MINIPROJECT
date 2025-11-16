@@ -85,4 +85,4 @@ app.listen(8080, () => {
 });
 
 
-console.log("Morning duty");
+console.log("Morning dut");
