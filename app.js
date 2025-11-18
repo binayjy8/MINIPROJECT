@@ -85,4 +85,4 @@ app.listen(8080, () => {
 });
 
 
-console.log("The city wan");
+console.log("The city wand");
