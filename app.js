@@ -85,4 +85,4 @@ app.listen(8080, () => {
 });
 
 
-console.log("climbing to the tre");
+console.log("climbing to the tree");
