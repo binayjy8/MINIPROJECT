@@ -85,4 +85,4 @@ app.listen(8080, () => {
 });
 
 
-console.log("This app is connected to airbnb");
+console.log("This app is connected to airbn");
