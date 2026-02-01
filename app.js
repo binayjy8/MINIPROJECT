@@ -85,4 +85,4 @@ app.listen(8080, () => {
 });
 
 
-console.log("All right reserved as sh");
+console.log("All right reserved as sho");
