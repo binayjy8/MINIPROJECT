@@ -85,4 +85,4 @@ app.listen(8080, () => {
 });
 
 
-console.log("All right reserve");
+console.log("All right reserved");
