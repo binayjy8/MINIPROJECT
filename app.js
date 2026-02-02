@@ -85,4 +85,4 @@ app.listen(8080, () => {
 });
 
 
-console.log("All right reserved as solve");
+console.log("All right reserved as solv");
