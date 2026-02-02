@@ -85,4 +85,4 @@ app.listen(8080, () => {
 });
 
 
-console.log("All righ");
+console.log("All rig");
