@@ -85,4 +85,4 @@ app.listen(8080, () => {
 });
 
 
-console.log("The file wishing locatio");
+console.log("The file wishing location");
