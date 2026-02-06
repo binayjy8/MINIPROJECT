@@ -85,4 +85,4 @@ app.listen(8080, () => {
 });
 
 
-console.log("The file width is also d");
+console.log("The file width is also ");
