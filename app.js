@@ -85,4 +85,4 @@ app.listen(8080, () => {
 });
 
 
-console.log("The mindset");
+console.log("The mindset i");
