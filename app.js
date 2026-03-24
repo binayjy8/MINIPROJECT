@@ -85,4 +85,4 @@ app.listen(8080, () => {
 });
 
 
-console.log("the accomodati"); 
+console.log("the accomodat"); 
