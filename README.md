@@ -1,1 +1,1 @@
-This App is based o
+This App is based on
