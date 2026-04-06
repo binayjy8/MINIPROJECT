@@ -85,4 +85,4 @@ app.listen(8080, () => {
 });
 
 
-console.log("The hotstar is a movie strea"); 
+console.log("The hotstar is a movie stream"); 
