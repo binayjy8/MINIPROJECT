@@ -1,2 +1,2 @@
 This App is based on the Airbnb website basically travelling wise application
-and the lauxry room the hote
+and the lauxry room the hotel
