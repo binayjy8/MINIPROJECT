@@ -1,1 +1,1 @@
-This App is based on the Airbnb website basically travelling wise applicat
+This App is based on the Airbnb website basically travelling wise applica
