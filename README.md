@@ -1,1 +1,1 @@
-This App is based on the Airbnb wel
+This App is based on the Airbnb well
