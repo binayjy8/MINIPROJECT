@@ -1,1 +1,1 @@
-This App is based on the Airbnb website basical 
+This App is based on the Airbnb website basicl 
