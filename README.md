@@ -1,1 +1,1 @@
-This App is based on the Airbnb wellbing ce 
+This App is based on the Airbnb wellbing e 
