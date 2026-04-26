@@ -1,1 +1,1 @@
-This App is based on the Airbnb and the applic
+This App is based on the Airbnb and the applica
