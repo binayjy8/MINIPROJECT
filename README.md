@@ -1,1 +1,1 @@
-This App is based on the Airbnb and the application about the react dom manupu
+This App is based on the Airbnb and the application about the react dom manupul
