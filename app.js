@@ -48,7 +48,7 @@ const sessionOptions = {
 };
 
 app.get("/", (req, res) => {
-    res.send(" hello is root and are biglat.");
+    res.send(" hello is root and are biglate.");
 });
 
 app.use(session(sessionOptions));
