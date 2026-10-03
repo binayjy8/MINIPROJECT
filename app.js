@@ -48,7 +48,7 @@ const sessionOptions = {
 };
 
 app.get("/", (req, res) => {
-    res.send(" hello is root and are nothig up.");
+    res.send(" hello is root and are nothig upc.");
 });
 
 app.use(session(sessionOptions));
